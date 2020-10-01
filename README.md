@@ -11,8 +11,8 @@ Following packages have been installed
 
 To start the container with GPU support:
 
-   singularity shell --nv mlcont-gpu.sif
+       singularity shell --nv mlcont-gpu.sif
 
 To start the container without GPU support:
 
-   singularity shell mlcont-cpu.sif
+       singularity shell mlcont-cpu.sif
