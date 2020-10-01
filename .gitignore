@@ -1,1 +1,4 @@
 *.sif
+tmpdir
+cachedir
+localcachedir
