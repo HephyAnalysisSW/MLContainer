@@ -22,14 +22,12 @@ From: centos:7
 
     conda config --set allow_softlinks false
     conda config --set always_copy true
-    conda install --yes -c conda-forge python=$PYTHON_VERSION root=$ROOT_VERSION
-
-    conda install keras tensorflow-gpu
-
+    conda env create -f environment-gpu.yml
+    
     conda clean --yes --all --force-pkgs-dirs
 
 %environment
 
     source /opt/conda/etc/profile.d/conda.sh
-    conda activate
+    conda activate gpu
 
