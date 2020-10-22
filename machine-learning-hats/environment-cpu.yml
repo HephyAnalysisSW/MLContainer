@@ -8,3 +8,7 @@ dependencies:
   - keras
   - tensorflow
   - uproot
+  - matplotlib
+  - root_numpy
+  - scikit-learn
+  - jupytherlab
