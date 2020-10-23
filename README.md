@@ -1,5 +1,5 @@
 # MLContainer
-Container and Conda Environments for ML based analysis @ HEPHY
+Singularity container and conda environments for ML based analysis @ HEPHY
 
 ## machine-learning-hats
 
