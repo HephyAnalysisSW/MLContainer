@@ -1,6 +1,7 @@
 name: gpu
 channels:
   - conda-forge
+  - pytorch
   - default
 dependencies:
   - python=3.8
@@ -11,4 +12,3 @@ dependencies:
   - matplotlib
   - root_numpy
   - scikit-learn
-  - jupytherlab 

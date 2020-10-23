@@ -1,6 +1,9 @@
 Bootstrap: docker
 From: centos:7
 
+%files
+    environment-cpu.yml
+    
 %post
 
     PYTHON_VERSION=3.8

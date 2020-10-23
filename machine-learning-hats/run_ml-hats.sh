@@ -24,14 +24,14 @@ done
 
 if [ $(hostname) = "hepgpu01" ]
 then
-   sif="/local/HephyML/singularity/ml-hats-gpu-latest.sif"
+   images="/local/HephyML/singularityi/images"
 elif [ $(hostname -d) = "vbc.ac.at" ]
-   sif="/mnt/hephy/HephyML/singularity/ml-hats-gpu-latest.sif"
+   images="/mnt/hephy/HephyML/singularity/images/ml-hats-gpu-latest.sif"
 else  
    echo "Unknown host"
    exit 1
 fi
 
-singularity $cmd $sopts $sif $*
+singularity $cmd $sopts $images/ml-hats-gpu-latest.sif $*
 
  
